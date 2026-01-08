@@ -9,7 +9,7 @@ public class App {
         int otroPadre;
         int generaciones = 0; // Contador de generaciones
 
-        int[] poblacion = Arrays.CreaArrayRandom(INDIVIDUOS, -50, 50); // Crea población
+        int[] poblacion = Arrays.CreaArrayRandom(INDIVIDUOS, -100, 100); // Crea población
 
         do {
             generaciones++;
